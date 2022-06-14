@@ -25,6 +25,7 @@ For easiest way to getting started, extract this project and open it from Intell
 
 Tip: Do remember to update this readme file for anything else that you think needs updating here!
 
+###libraries used Selenium TestNG log4j Extent Reports
 
 Steps to clone execute the tests
 
