@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-14T11:05:33 IST" name="AmazonTest" finished-at="2022-06-14T11:06:36 IST" duration-ms="62920">
+    <groups>
+    </groups>
+    <test started-at="2022-06-14T11:05:33 IST" name="Samsung Test" finished-at="2022-06-14T11:06:36 IST" duration-ms="62920">
+      <class name="amazon.test.AmazonPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:amazon.test.AmazonPageTest@2fba3fc4]" started-at="2022-06-14T11:05:33 IST" name="setUp" finished-at="2022-06-14T11:05:56 IST" duration-ms="23388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAmazonPageTitleTest()[pri:1, instance:amazon.test.AmazonPageTest@2fba3fc4]" started-at="2022-06-14T11:05:56 IST" name="verifyAmazonPageTitleTest" finished-at="2022-06-14T11:05:56 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonPageTitleTest -->
+        <test-method is-config="true" signature="deinitialize()[pri:0, instance:amazon.test.AmazonPageTest@2fba3fc4]" started-at="2022-06-14T11:05:56 IST" name="deinitialize" finished-at="2022-06-14T11:05:57 IST" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deinitialize -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:amazon.test.AmazonPageTest@2fba3fc4]" started-at="2022-06-14T11:05:57 IST" name="setUp" finished-at="2022-06-14T11:06:20 IST" duration-ms="22599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="performActionsOnAmazonPage()[pri:2, instance:amazon.test.AmazonPageTest@2fba3fc4]" started-at="2022-06-14T11:06:20 IST" name="performActionsOnAmazonPage" finished-at="2022-06-14T11:06:35 IST" duration-ms="14882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActionsOnAmazonPage -->
+        <test-method is-config="true" signature="deinitialize()[pri:0, instance:amazon.test.AmazonPageTest@2fba3fc4]" started-at="2022-06-14T11:06:35 IST" name="deinitialize" finished-at="2022-06-14T11:06:36 IST" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deinitialize -->
+      </class> <!-- amazon.test.AmazonPageTest -->
+    </test> <!-- Samsung Test -->
+  </suite> <!-- AmazonTest -->
+</testng-results>
