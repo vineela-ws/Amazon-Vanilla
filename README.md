@@ -29,7 +29,9 @@ Tip: Do remember to update this readme file for anything else that you think nee
 Steps to clone execute the tests
 
 git clone https://github.com/vineela-ws/Amazon-Vanilla.git
+
 1.cd Amazon-Vanilla  or go to the project directory 
+
 mvn clean test
 
 2.Open project in Eclipse Run TestNg.xml
