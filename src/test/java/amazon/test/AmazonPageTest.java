@@ -4,10 +4,7 @@ package amazon.test;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 
-import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -66,8 +63,7 @@ public class AmazonPageTest {
 	public void performActionsOnAmazonPage() throws InterruptedException {
 		Log.createExtentTest("AmazonTest002", "AmazonAssignment");
 		Log.info("Started Test 002");
-		amazonPage.performActionsOnAmazonPage(sortDropdownValue);
-		DriverFactory.getDriver().close();
+		amazonPage.performActionsOnAmazonPage("Price: High to Low");
 		Log.info("Ended Test 002");
 	}
 		
@@ -79,5 +75,7 @@ public class AmazonPageTest {
 		Log.flushExtent();
 		Log.info("De Initialization Ended");
 		DriverFactory.getDriver().quit();
+
+
 	}
 }

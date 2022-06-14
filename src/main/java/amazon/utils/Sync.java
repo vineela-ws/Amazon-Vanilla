@@ -11,11 +11,13 @@ public class Sync {
 	public static void waitForSeconds(int strWaitTime) throws InterruptedException {
 		Thread.sleep(strWaitTime*1000);
 		Log.info("Waited for <<" + strWaitTime + ">> seconds");
+		}
+		
+		public static void clickOn(WebDriver driver,WebElement element,int timeout) {
+		    new WebDriverWait(driver, timeout)
+			.until(ExpectedConditions.elementToBeClickable((element)));
+		    element.click();
+		}
 	}
-	
-	public static void clickOn(WebDriver driver,WebElement element,int timeout) {
-	    new WebDriverWait(driver, timeout)
-		.until(ExpectedConditions.elementToBeClickable((element)));
-	    element.click();
-	}
-}
+
+
